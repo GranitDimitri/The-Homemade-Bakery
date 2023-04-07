@@ -1,0 +1,2 @@
+Ce qui a été réalisé : Intégralité de la page (non responsive).
+Ce qui reste à faire : Responsive, crop de l'image de fond en haut.

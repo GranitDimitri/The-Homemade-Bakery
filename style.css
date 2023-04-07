@@ -1,0 +1,178 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(/Roboto-Regular.ttf);
+}
+
+body {
+    margin: 0 0 0 0;
+    background-color: #FFFFFF;
+    overflow-y: auto;
+}
+
+/* Première section */
+
+.handmade {
+    margin: 0% 0 10% 0;
+}
+.bg {
+    width: 100%;
+}
+.handmadetext {
+    background-color: #FFFFFF;
+    width: 60%;
+    height: 60%;
+    z-index: 1;
+    position: absolute;
+    margin: 0 20% 0 20%;
+    top: 95%;
+    border-radius: 5% / 10%;
+    box-shadow: rgba(0, 0, 0, 0.100) 0px 26px 30px -10px, rgb(0, 0, 0, 0.100) 0px 16px 10px -10px;
+}
+.handmadetext h1 {
+    color: #97AC9B;
+    font-size: 400%;
+    font-family: Roboto;
+    text-align: center;
+    font-weight: bold;
+    margin: 2% 2% 2% 2%;
+}
+.handmadetext p {
+    font-size: 160%;
+    font-family: OpenSans;
+    text-align: center;
+    margin: 0 8% 4% 8%;
+    color: #111111;
+}
+.handmadetext a {
+    text-decoration: none;
+    border-bottom: 3px solid #97AC9B;
+    color: #111111;
+}
+.learnmore {
+    background-color: #97AC9B;
+    width: 30%;
+    height: 15%;
+    border-radius: 20%/ 80%;
+    margin: 0 35% 0 35%;
+    position: absolute;
+}
+.learnmore p {
+    font-size: 130%;
+    color: #FFFFFF;
+    margin: 7% 0 0 0;
+    text-align: center;
+}
+
+/* Deuxième Section */
+
+.presentation {
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+.presdiv {
+    background-color: #FFFFFF;
+    margin: 10% 0 0 1%;
+    padding: 1% 0 1% 0;
+    width: 22%;
+    height: 80%;
+    border-radius: 8% / 5%;
+    box-shadow: rgba(0, 0, 0, 0.100) 0px 26px 30px -10px, rgb(0, 0, 0, 0.100) 0px 16px 10px -10px;
+}
+.rond {
+    width: 120px;
+    height: 120px;
+    background-color: #97AC9B;
+    margin: 2% 0 0 8%;
+    border-radius: 50%;
+    position: absolute;
+}
+.presdiv img {
+    width: 35%;
+    margin: 20% 30% 0% 20%;
+    z-index: 0;
+}
+.presdiv h1 {
+    font-size: 160%;
+    font-family: Roboto;
+    text-align: center;
+    font-weight: bold;
+    margin: 8% 0 5% 0;
+    color: #111111;
+}
+.presdiv p {
+    font-size: 120%;
+    font-family: OpenSans;
+    text-align: center;
+    margin: 0 8% 12% 8%;
+    color: #808080;
+}
+/* Troisième section */
+
+
+.quality h1 {
+    font-family: Roboto;
+    color: #FFFFFF;
+    width: 30%;
+    font-size: 350%;
+    font-weight: bold;
+    position: absolute;
+    margin: 0 0 0 60%;
+}
+.qualitydiv1, .qualitydiv2, .qualitydiv3 {
+    background-color: #FFFFFF;
+    padding: 1% 0 1% 0;
+    width: 40%;
+    height: 80%;
+    border-radius: 5% / 3%;
+}
+
+.qualitydiv1 img, .qualitydiv2 img, .qualitydiv3 img {
+    width: 92%;
+    border-radius: 5%;
+    margin: 0 0 0 4%;
+}
+.qualitydiv1 p, .qualitydiv2 p, .qualitydiv3 p {
+    font-size: 160%;
+    font-family: OpenSans;
+    text-align: justify;
+    margin: 0 8% 4% 4%;
+    color: #111111;
+}
+.bggreen {
+    background-color: #97AC9B;
+    width: 100%;
+    position: absolute;
+    top: 190%;
+    height: 150%;
+    z-index: -1;
+}
+.qualitydiv1 {
+    margin: 10% 0 0 10%;
+}
+.qualitydiv2 {
+    margin: -40% 0 0 55%;
+}
+.qualitydiv3 {
+    margin: -10% 0 0 10%;
+}
+.viewproducts {
+    background-color: #97AC9B;
+    width: 15%;
+    height: 7.5%;
+    border-radius: 20%/ 80%;
+    margin: -35% 35% 0% 55%;
+    position: absolute;
+}
+.viewproducts p {
+    font-size: 100%;
+    color: #FFFFFF;
+    margin: 7% 0 0 0;
+    font-family: OpenSans;
+    text-align: center;
+}
